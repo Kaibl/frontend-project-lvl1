@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-import {hello} from '../src/cli.js';
+import{hello}from '../src/cli.js';
