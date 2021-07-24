@@ -1,5 +1,6 @@
 {
   "name": "@hexlet/code",
+  "type": "module",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/Kaibl/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Kaibl/frontend-project-lvl1/actions)",
   "main": "index.js",
@@ -10,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/Kaibl/frontend-project-lvl1.git"
   },
   "author": "Matvey",
@@ -18,7 +19,8 @@
   "bugs": {
     "url": "https://github.com/Kaibl/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/Kaibl/frontend-project-lvl1#readme"
-  
+  "homepage": "https://github.com/Kaibl/frontend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
-
