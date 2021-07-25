@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 import{name}from '../src/cli.js';
-export default 
+export default
 console.log('What is the result of the expression?')
 for (let i = 0; i < 3; i += 1) {
 
@@ -15,12 +15,13 @@ for (let i = 0; i < 3; i += 1) {
         case '+':
             realAnswer = a + b
             break;
-        case '-': 
+        case '-':
             realAnswer = a - b
             break;
-         case '*': 
+         case '*':
             realAnswer = a * b
             break;
+            .
     };
     console.log(`Qestion:${a} ${randSumb} ${b}`);
     const answer = readlineSync.question('Your answer: ')

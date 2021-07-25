@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 import{name}from '../src/cli.js';
-export default 
+export default
 console.log('Answer "yes" if the number is even, otherwise answer "no"')
 for (let i = 0; i < 3; i += 1) {
     let number = Math.round(Math.random() * 1000)
@@ -23,3 +23,4 @@ for (let i = 0; i < 3; i += 1) {
         console.log(`Congratulition, ${name}!`)
     }
 }
+.
