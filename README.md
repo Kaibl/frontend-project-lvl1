@@ -11,9 +11,4 @@ https://asciinema.org/a/YEiMYI0p2ShaFdVU2HGHfHkar
 
 https://asciinema.org/a/ud9o8zRHYkf5oNgk1Y3jdvjx2
 
-<video>
- <source src="https://asciinema.org/a/QuuyAU7ltgOGJ4hzCJAqlFiKS">
- <source src="https://asciinema.org/a/RTdPfMzyl0SxgaS5ToatGxEgZ">
- <source src="https://asciinema.org/a/YEiMYI0p2ShaFdVU2HGHfHkar">
- <source src="https://asciinema.org/a/ud9o8zRHYkf5oNgk1Y3jdvjx2">
-</video>
+https://asciinema.org/a/ZDhYhiLURxhqka3fD6oIYH6x9

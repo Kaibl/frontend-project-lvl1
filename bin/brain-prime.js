@@ -1,0 +1,1 @@
+import nod from '../src/prime.js';
