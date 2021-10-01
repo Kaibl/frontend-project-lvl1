@@ -1,14 +1,25 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Kaibl/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Kaibl/frontend-project-lvl1/actions)
 [![Eslint-check](https://github.com/Kaibl/frontend-project-lvl1/actions/workflows/Esclint-check.yml/badge.svg)](https://github.com/Kaibl/frontend-project-lvl1/actions/workflows/Esclint-check.yml)
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+ <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+ 
+## asciinema:
+[![asciicast](https://asciinema.org/a/iSprZP1n6MEL1h8FHgEmh20LU.svg)](https://asciinema.org/a/iSprZP1n6MEL1h8FHgEmh20LU)
 
-https://asciinema.org/a/QuuyAU7ltgOGJ4hzCJAqlFiKS
+## make command:
+* game:
+	run **ALL** game
+* brain-even:
+run brain-even game
 
-https://asciinema.org/a/RTdPfMzyl0SxgaS5ToatGxEgZ
+* brain-calc:
+	run brain-calc game
 
-https://asciinema.org/a/YEiMYI0p2ShaFdVU2HGHfHkar
+* brain-gcd:
+  run brain-gcd game
 
-https://asciinema.org/a/ud9o8zRHYkf5oNgk1Y3jdvjx2
+* brain-prime:
+	run brain-prime game
 
-https://asciinema.org/a/ZDhYhiLURxhqka3fD6oIYH6x9
+* brain-progression:
+	run brain-progression game
