@@ -1,1 +1,1 @@
-import calc from '../src/calc.js';
+import engine from '../src/game/calcGame.js';

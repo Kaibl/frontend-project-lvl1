@@ -1,1 +1,1 @@
-import nod from '../src/progression.js';
+import engine from '../src/game/progressionGame.js';

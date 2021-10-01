@@ -1,1 +1,1 @@
-import nod from '../src/nod.js';
+import engine from '../src/game/gcdGame.js';

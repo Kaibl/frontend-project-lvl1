@@ -1,1 +1,1 @@
-import evenGame from '../src/evenGame.js';
+import engine from '../src/game/evenGame.js';

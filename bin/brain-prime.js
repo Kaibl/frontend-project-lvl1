@@ -1,1 +1,1 @@
-import nod from '../src/prime.js';
+import engine from '../src/game/primeGame.js';

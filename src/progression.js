@@ -1,13 +1,6 @@
-import readlineSync from 'readline-sync';
-import{name}from '../src/cli.js';
-export default
-
-console.log('What number is missing in the progression?')
-
 function compareNumbers(a, b) {
     return a - b;
-  }
-
+};
   const newMas = (mas) => {
       let result = []
 
@@ -20,9 +13,7 @@ function compareNumbers(a, b) {
       firstNum += sumNum
       }
       return result.sort(compareNumbers)
-  };
-
-
+};
   const getAnswer = (mas) => {
 	const num = Math.floor(Math.random() * (mas.length))
 	console.log(num)
@@ -30,25 +21,17 @@ function compareNumbers(a, b) {
 	return result
 };
 
-for (let i = 0; i < 3; i += 1) {
+export default function progression() {
     const array = newMas()
     const numPosition = Math.floor(Math.random() * (array.length))
 
-
+const answer = [];
 
     let arrayForPlayer = array
     const realAnswer = array[numPosition];
    arrayForPlayer[numPosition] = '..'
 
-    console.log(`Question:${arrayForPlayer}`);
-    const answer = readlineSync.question('Your answer: ')
-    if (Number(answer) === realAnswer) {
-        console.log('Correct!')
-    } else {
-            console.log(`'${answer}' is wrong answer ;(. Correct answer was '${realAnswer}'\nLet's try again, ${name}!`)
-            break;
-    }
-    if (i === 2) {
-        console.log(`Congratulation, ${name}!`)
-    }
+    answer.push(`Question:${arrayForPlayer}`);
+    answer.push(realAnswer)
+    return answer
 };
