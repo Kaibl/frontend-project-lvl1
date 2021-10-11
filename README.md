@@ -4,7 +4,7 @@
  <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
  
 ## asciinema:
-[![asciicast](https://asciinema.org/a/iSprZP1n6MEL1h8FHgEmh20LU.svg)](https://asciinema.org/a/iSprZP1n6MEL1h8FHgEmh20LU)
+[![asciicast](https://asciinema.org/a/O2u7D7ntm7jkVuFKIkY56kNgs.svg)](https://asciinema.org/a/O2u7D7ntm7jkVuFKIkY56kNgs)
 
 ## make command:
 * game:
