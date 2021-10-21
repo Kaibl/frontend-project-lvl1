@@ -18,7 +18,7 @@ export default function calc() {
             realAnswer = a * b
             break;
     };
-    result.push(`Qestion:${a} ${randSumb} ${b}`);
+    result.push(`Qestion: ${a} ${randSumb} ${b}`);
     result.push(`${realAnswer}`);
     return result;
 };

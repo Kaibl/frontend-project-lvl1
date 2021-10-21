@@ -32,7 +32,7 @@ const answer = [];
     const num2Dividers = findAllDividers(num2)
     let realAnswer = getHigherDivider(num1Dividers, num2Dividers)
 
-answer.push(`Question:${num1} ${num2}`);
+answer.push(`Question: ${num1} ${num2}`);
 answer.push(realAnswer[0])
 return answer
 };
