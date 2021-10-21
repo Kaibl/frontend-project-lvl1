@@ -1,7 +1,7 @@
 export default function prime() {
     let number = Math.round(Math.random() * (99) + 2)
 const answer = []
-    answer.push(`Qestion: ${number}`);
+    answer.push(number);
 const findDivider = (number) => {
 let halfNum = Math.pow(number, 1/2)
 let i = 1

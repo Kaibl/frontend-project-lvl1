@@ -31,7 +31,7 @@ const answer = [];
     const realAnswer = array[numPosition];
    arrayForPlayer[numPosition] = '..'
 
-    answer.push(`Question: ${arrayForPlayer}`);
+    answer.push(arrayForPlayer);
     answer.push(realAnswer)
     return answer
 };

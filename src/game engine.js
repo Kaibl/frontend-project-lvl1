@@ -12,7 +12,7 @@ console.log(`${description}`)
 for (let i = 0; i < 3; i += 1) {
 const questionAndAnswer = game();
 const realAnswer = questionAndAnswer[1]
-console.log(`${questionAndAnswer[0]}`) //вопрос
+console.log(`Qestion: ${questionAndAnswer[0]}`) //вопрос
     const answer = readlineSync.question('Your answer: ')
     if (answer == realAnswer) {
         console.log('Correct!')
