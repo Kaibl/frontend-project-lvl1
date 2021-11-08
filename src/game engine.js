@@ -14,7 +14,7 @@ export default function runGame(description, game) {
     const realAnswer = questionAndAnswer[1];
     console.log(`Question: ${questionAndAnswer[0]}`); // вопрос
     const answer = readlineSync.question('Your answer: ');
-    if (answer == realAnswer) {
+    if (answer === realAnswer) {
       console.log('Correct!');
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${questionAndAnswer[1]}'\nLet's try again, ${name}!`);

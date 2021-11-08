@@ -17,6 +17,8 @@ export default function calc() {
     case '*':
       realAnswer = a * b;
       break;
+    default:
+      break;
   }
   result.push(`${a} ${randSumb} ${b}`);
   result.push(`${realAnswer}`);
