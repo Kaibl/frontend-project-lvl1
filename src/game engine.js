@@ -21,7 +21,8 @@ console.log(`Question: ${questionAndAnswer[0]}`) //вопрос
             break;
     };
     if (i === 2) {
-        console.log(`Congratulition, ${name}!`)
+        console.log(`Congratulations, ${name}!`)
+
     }
 }
 };
