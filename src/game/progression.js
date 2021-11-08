@@ -31,7 +31,7 @@ const answer = [];
     const realAnswer = array[numPosition];
    arrayForPlayer[numPosition] = '..'
 
-    answer.push(arrayForPlayer);
+    answer.push(arrayForPlayer.join(' '));
     answer.push(realAnswer)
     return answer
 };
