@@ -10,6 +10,7 @@ const getHigherDivider = (mas1, mas2) => {
   }
   return result;
 };
+
 const findAllDividers = (num) => {
   const result = [];
   if (num <= 1) {
@@ -25,13 +26,13 @@ const findAllDividers = (num) => {
 
 export default function gcd() {
   const answer = [];
-  const num1 = Math.round(Math.random() * 100);
-  const num2 = Math.round(Math.random() * 100);
+  const num1 = Math.round((Math.random() * 100) + 2);
+  const num2 = Math.round((Math.random() * 100) + 2);
   const num1Dividers = findAllDividers(num1);
   const num2Dividers = findAllDividers(num2);
   const realAnswer = getHigherDivider(num1Dividers, num2Dividers);
 
   answer.push(`${num1} ${num2}`);
-  answer.push(realAnswer[0]);
+  answer.push(String(realAnswer[0]));
   return answer;
 }
