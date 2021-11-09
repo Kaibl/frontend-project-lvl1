@@ -26,6 +26,6 @@ export default function progression() {
   arrayForPlayer[numPosition] = '..';
 
   answer.push(arrayForPlayer.join(' '));
-  answer.push(realAnswer);
+  answer.push(String(realAnswer));
   return answer;
 }
