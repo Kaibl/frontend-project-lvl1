@@ -1,14 +1,10 @@
 const getHigherDivider = (mas1, mas2) => {
-  const result = [];
-  for (const num1 of mas1) {
-    for (const num2 of mas2) {
-      if (num1 === num2) {
-        result.push(num1);
-        break;
-      }
+  for (let i = 0; i < mas1.length; i += 1) {
+    if (mas2.includes(mas1[i])) {
+      return mas1[i];
     }
   }
-  return result;
+  return null;
 };
 
 const findAllDividers = (num) => {
@@ -33,6 +29,6 @@ export default function gcd() {
   const realAnswer = getHigherDivider(num1Dividers, num2Dividers);
 
   answer.push(`${num1} ${num2}`);
-  answer.push(String(realAnswer[0]));
+  answer.push(String(realAnswer));
   return answer;
 }
